@@ -1,0 +1,43 @@
+
+.outterwarper{
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    background-color:black;
+    transition: all 0.5e;
+    transition-timing-function: ease-in;
+    z-index:1;
+    height:10vh;
+    color: white;
+    z-index:1;
+    
+    
+}
+ .warper{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+.leftwarper  ul{
+    width:140%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor:pointer;
+
+}
+.rightwarper  ul{
+    width:150%;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+
+}
+
