@@ -4,7 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import "./Footer.css"
-const api="651e02c479f3ed383c8cf61240d90355"
+
 
 function Footer() {
   return (
