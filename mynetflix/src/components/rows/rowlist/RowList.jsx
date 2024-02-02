@@ -6,14 +6,13 @@ function RowList() {
   return (
     <>
   <Row title="NETFLIXORIGINAL" fetchurl={requests.fetchNetflixorginals} isLargeRow={true}/>
-  <Row title="trending"  fetchurl={requests.fetchTrending} />
-  
+  <Row title="romance"  fetchurl={requests.fetchRomance} />
   <Row  title="Toprated" fetchurl={requests.fetchedToprated}/>
-  <Row title="Comedy"  fetchurl={requests.fetchDocumentary}/>
+  <Row title="Comedy"  fetchurl={requests.fetchComedy}/>
   <Row  title="Horrors"  fetchurl={requests.fetchHorrors}/>
     
   <Row   title="Documentary" fetchurl={requests.fetchDocumentary}/>
-  <Row   title="tvshow"fetchurl={requests.fetchtvshow}/>
+
     
 </>
 
